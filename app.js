@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const tableViewBtn = document.getElementById('table-view-btn');
 
     // Base API URL
-    const API_URL = 'https://api.allorigins.win/raw?url=' + encodeURIComponent('http://universities.hipolabs.com/search');
+    const API_URL = 'http://universities.hipolabs.com/search';
 
     // Current view state
     let currentView = 'grid';
